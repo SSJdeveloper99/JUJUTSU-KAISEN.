@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #101220;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    background-color:#03040a;
+    padding: 20px 0;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+.select{
+    background-color:rgba(0, 0, 255, 0);
+    color: white;
+     border-radius: 10px;
+     gap: 10px;
+}
+.select option{
+    background-color: #101220;
+    border-radius: 10px;
+}
+.header__item{
+    position: relative;
+}
+.header__item:hover {
+    display: flex;
+}
+.header__item:hover  {
+    transform: rotate(540deg);
+    transition: 1s ease-in-out;
+}
+.header__register{
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    text-decoration: none;
+}
+.header__right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header__btn{
+    width: 175px;
+    border-radius: 15px;
+    padding: 15px 0;
+    border: none;
+    background: rgb(191, 175, 242);
+}
+.header__btn:hover{
+    background-color: rgba(43, 32, 199, 0.771);
+}
+.fa-l{
+    margin-left: 5px;
+}
+
+.hero__list{
+    position: relative;
+    padding-top: 418px;
+    padding-bottom: 116px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.hero__box{
+    border-radius: 32px;
+    width: 325px;
+    gap: 20px;
+    padding: 33px 16px;
+background: rgb(35, 32, 40);
+}
+.hero__box:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 24px 0px white;
+}
+.hero__title{
+ padding-top: 30px;
+ color: rgb(255, 255, 255);
+font-family: "Outfit";
+font-size: 32px;
+font-weight: 400;
+text-align: center;
+}
+.hero__text{
+color: rgb(255, 255, 255);
+font-family: "Outfit";
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+.logo{
+    position: relative;
+}
+.hero__item img{
+ top:150px;
+padding-left: 50px;
+position: absolute;
+}
+.footer__list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+   
+}
+.footer__container{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__item a{
+    color: rgb(255, 255, 255);
+font-family: "Lato";
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+text-decoration: none;
+}
+.footer__item a:hover{
+    color: rgb(0, 255, 60);
+    transition: color 0.3s ease;
+}
+.footer{
+    padding: 20px 20px;
+}
